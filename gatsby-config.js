@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `{City} Service Relief`,
-    description: `A list of local service-industry businesses and their fundraisers to help them get through the local shutdowns.`,
+    title: `Seattle Service Relief`,
+    description: `A list of local service-industry businesses in Seattle, Washington and their fundraisers to help them get through the local shutdowns.`,
     author: `@boborchard`,
-    state: "{state name}",
-    city: "{city name}",
+    state: "Washington",
+    city: "Seattle",
   },
   plugins: [
     `gatsby-plugin-postcss`,
