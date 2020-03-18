@@ -47,27 +47,50 @@ const IndexPage = () => {
           Suggest an addition &rarr;
         </Link>
       </div>
+
       <div className="mb-10 border shadow p-6">
         <h2 className="text-xl font-bold">
-          Featured: Seattle Hospitality Emergency Fund
+          Featured: COVID-19 Solidarity Response Fund for WHO
         </h2>
 
         <p className="mt-4">
-          Team fundraiser by Jessica Tousignant and Candace Whitney Morris to
-          help provide emergency relief to those workers whose hours have been
-          curtailed because of this crisis and who are not being otherwise
-          compensated.
+          Donations support WHO’s work to track and understand the spread of the virus; to ensure patients get the care they need and frontline workers get essential supplies and information; and to accelerate efforts to develop vaccines, tests, and treatments.
         </p>
 
         <p className="mt-4">
           <a
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-            href="https://www.gofundme.com/f/seattle-hospitality-emergency-fund"
+            href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/donate"
             target="_blank"
           >
             Donate Here
           </a>
         </p>
+      </div>
+
+      <div className="mb-10">
+        <h2 id="support" className="text-xl font-bold">
+          Support Seattle
+        </h2>
+
+        <ul className="list-disc pl-6 mt-4">
+          <li>
+            <a
+              className="underline"
+              href="https://www.gofundme.com/f/seattle-hospitality-emergency-fund"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Seattle Hospitality Emergency Fund
+            </a>{" "}
+            <p className="mt-2 italic">
+              Team fundraiser by Jessica Tousignant and Candace Whitney Morris to
+              help provide emergency relief to those workers whose hours have been
+              curtailed because of this crisis and who are not being otherwise
+              compensated.
+            </p>
+          </li>
+        </ul>
       </div>
 
       <div className="mb-10">
