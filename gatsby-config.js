@@ -3,8 +3,10 @@ module.exports = {
     title: `Seattle Service Relief`,
     description: `A list of local service-industry businesses in Seattle, Washington and their fundraisers to help them get through the local shutdowns.`,
     author: `@boborchard`,
-    state: "Washington",
-    city: "Seattle",
+    state: `Washington`,
+    city: `Seattle`,
+    siteUrl: `https://seattleservicerelief.com/`,
+    siteImage: `banner.jpg`
   },
   plugins: [
     `gatsby-plugin-postcss`,

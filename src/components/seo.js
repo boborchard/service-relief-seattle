@@ -19,13 +19,21 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            city
+            state
+            siteUrl
+            siteImage
           }
         }
       }
     `
   )
 
+  const siteTitle = `${site.siteMetadata.city}, ${site.siteMetadata.state} Service Relief Directory`
+
   const metaDescription = description || site.siteMetadata.description
+
+  const twitterImage = `${site.siteMetadata.siteUrl}${site.siteMetadata.siteImage}`
 
   return (
     <Helmet
@@ -33,7 +41,7 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s | ${siteTitle}`}
       meta={[
         {
           name: `description`,
@@ -41,7 +49,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: siteTitle,
         },
         {
           property: `og:description`,
@@ -53,7 +61,11 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: site.siteMetadata.description,
+        },
+        {
+          name: `twitter:image`,
+          content: twitterImage,
         },
         {
           name: `twitter:creator`,
@@ -61,7 +73,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: siteTitle,
         },
         {
           name: `twitter:description`,

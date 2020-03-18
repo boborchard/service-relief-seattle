@@ -28,6 +28,10 @@ const IndexPage = () => {
         </p>
         <p className="text-lg mb-8">
           Jump to:{" "}
+          <Link to="#support" className="underline">
+            {data.site.siteMetadata.city}
+          </Link>
+          ,{" "}
           <Link to="#restaurants" className="underline">
             restaurants
           </Link>
@@ -70,7 +74,7 @@ const IndexPage = () => {
 
       <div className="mb-10">
         <h2 id="support" className="text-xl font-bold">
-          Support Seattle
+          Support {data.site.siteMetadata.city}
         </h2>
 
         <ul className="list-disc pl-6 mt-4">
