@@ -58,7 +58,10 @@ const IndexPage = () => {
         </h2>
 
         <p className="mt-4">
-          Donations support WHO’s work to track and understand the spread of the virus; to ensure patients get the care they need and frontline workers get essential supplies and information; and to accelerate efforts to develop vaccines, tests, and treatments.
+          Donations support WHO’s work to track and understand the spread of the
+          virus; to ensure patients get the care they need and frontline workers
+          get essential supplies and information; and to accelerate efforts to
+          develop vaccines, tests, and treatments.
         </p>
 
         <p className="mt-4">
@@ -88,10 +91,10 @@ const IndexPage = () => {
               Seattle Hospitality Emergency Fund
             </a>{" "}
             <p className="mt-2 italic">
-              Team fundraiser by Jessica Tousignant and Candace Whitney Morris to
-              help provide emergency relief to those workers whose hours have been
-              curtailed because of this crisis and who are not being otherwise
-              compensated.
+              Team fundraiser by Jessica Tousignant and Candace Whitney Morris
+              to help provide emergency relief to those workers whose hours have
+              been curtailed because of this crisis and who are not being
+              otherwise compensated.
             </p>
           </li>
         </ul>
@@ -183,6 +186,17 @@ const IndexPage = () => {
             >
               Food Delivery by Savor Seattle
             </a>
+          </li>
+          <li>
+            <a
+              className="underline"
+              href="https://squareup.com/gift/QEH9QRVR4SGD5/order"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Canine Casa
+            </a>{" "}
+            <span className="italic">(support by purchasing gift cards)</span>
           </li>
         </ul>
       </div>
